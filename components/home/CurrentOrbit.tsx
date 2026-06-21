@@ -2,7 +2,7 @@ import Container from "@/components/layout/Container";
 
 export default function CurrentOrbit() {
   return (
-    <section className="pb-24">
+    <section className="pb-20">
       <Container>
         <div className="rounded-3xl border border-slate-200 p-8 md:p-12">
           <p className="text-sm uppercase tracking-[0.3em] text-slate-500">

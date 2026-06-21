@@ -7,10 +7,10 @@ import TechStack from "./TechStack";
 
 export default function Hero() {
   return (
-    <section className="py-24">
+    <section className="pt-14 pb-20">
       <Container>
         <AvailabilityBadge />
-        <div className=" mb-6 grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div className=" mt-10 grid gap-12 lg:grid-cols-2 lg:items-center">
 
           {/* Left Side */}
 
@@ -19,15 +19,15 @@ export default function Hero() {
               Project Orbit
             </p>
 
-            <h1 className="mt-6 text-5xl font-bold tracking-tight text-slate-900 lg:text-6xl">
+            <h1 className="mt-6 max-w-3xl text-6xl font-black tracking-tight text-slate-950 lg:text-7xl">
               Harshita Srivastava
             </h1>
 
-            <p className="mt-4 text-lg font-medium text-slate-700">
+            <p className="mt-4 text-2xl font-bold text-blue-600">
               Backend Engineer · Full Stack Developer
             </p>
 
-            <p className="mt-8 text-xl leading-relaxed text-slate-600">
+            <p className="mt-8 max-w-2xl text-xl leading-relaxed text-slate-600">
               Turning ideas into reliable software through backend engineering,
 full-stack development, and continuous learning.
             </p>
