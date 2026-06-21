@@ -1,5 +1,6 @@
 import OrbitLogo from "./OrbitLogo";
 import Container from "./Container";
+import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   return (
@@ -44,6 +45,9 @@ export default function Navbar() {
               Contact
             </a>
           </nav>
+
+          <MobileMenu />
+          
         </div>
       </Container>
     </header>
