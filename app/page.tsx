@@ -1,12 +1,14 @@
+import OrbitLogo from "@/components/layout/OrbitLogo";
+
 export default function Home() {
   return (
     <main className="min-h-screen flex items-center justify-center">
       <div className="text-center">
-        <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
-          Project Orbit
-        </p>
+        <div className="flex justify-center mb-8">
+          <OrbitLogo />
+        </div>
 
-        <h1 className="mt-4 text-5xl font-bold text-slate-900">
+        <h1 className="text-5xl font-bold text-slate-900">
           Mission Control
         </h1>
 
