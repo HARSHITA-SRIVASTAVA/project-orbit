@@ -4,6 +4,7 @@ import Navbar from "@/components/layout/Navbar";
 import Button from "@/components/ui/Button";
 import { notFound } from "next/navigation";
 
+
 type ProjectPageProps = {
   params: Promise<{
     slug: string;

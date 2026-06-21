@@ -7,7 +7,7 @@ export default function FeaturedMissions() {
   const experiments = projects.filter((project) => !project.featured);
 
   return (
-    <section className="py-20">
+    <section className="py-10">
       <Container>
         <div className="mb-12 max-w-3xl">
           <p className="text-sm font-bold uppercase tracking-[0.35em] text-blue-600">
