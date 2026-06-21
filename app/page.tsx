@@ -4,6 +4,7 @@ import CurrentOrbit from "@/components/home/CurrentOrbit";
 
 import FeaturedMissions from "@/components/home/FeaturedMissions";
 import ExperiencePreview from "@/components/home/ExperiencePreview";
+import MilestonesPreview from "@/components/home/MilestonesPreview";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <CurrentOrbit />
         <FeaturedMissions />
         <ExperiencePreview />
+        <MilestonesPreview />
       </main>
     </>
   );
