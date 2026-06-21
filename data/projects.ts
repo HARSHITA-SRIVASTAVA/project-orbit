@@ -12,8 +12,10 @@ export const projects: Project[] = [
     category: "Full Stack",
     status: "Completed",
     featured: true,
-    githubUrl: "https://github.com/HARSHITA-SRIVASTAVA/InterviewPrepPlatform_Project",
-    liveUrl: "https://interview-prep-platform-project.vercel.app",
+    githubUrl: 
+    "https://github.com/HARSHITA-SRIVASTAVA/InterviewPrepPlatform_Project",
+    liveUrl: 
+    "https://interview-prep-platform-project.vercel.app",
   },
   {
     id: 2,
