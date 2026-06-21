@@ -4,6 +4,9 @@ import { milestones } from "@/data/milestones";
 
 import Footer from "@/components/layout/Footer";
 
+export const metadata = {
+  title: "Mission Milestones",
+};
 
 export default function MilestonesPage() {
   return (

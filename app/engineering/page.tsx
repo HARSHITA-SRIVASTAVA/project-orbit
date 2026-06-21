@@ -4,6 +4,12 @@ import Container from "@/components/layout/Container";
 import MissionCard from "@/components/engineering/MissionCard";
 import { projects } from "@/data/projects";
 
+// for browser top title
+export const metadata = {   
+  title: "Engineering Missions",
+};
+
+
 export default function EngineeringPage() {
   return (
     <>

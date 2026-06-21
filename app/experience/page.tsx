@@ -4,6 +4,10 @@ import { experiences } from "@/data/experience";
 
 import Footer from "@/components/layout/Footer";
 
+export const metadata = {
+  title: "Experience",
+};
+
 export default function ExperiencePage() {
   const experience = experiences[0];
 

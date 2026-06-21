@@ -2,6 +2,10 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Container from "@/components/layout/Container";
 
+export const metadata = {
+  title: "Contact",
+};
+
 export default function ContactPage() {
   return (
     <>
