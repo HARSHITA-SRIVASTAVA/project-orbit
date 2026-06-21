@@ -17,6 +17,17 @@ export type Project = {
 
   featured: boolean;
 
+  problem: string;
+
+  solution: string;
+
+  features: string[];
+
+  challenges: string[];
+
+  learnings: string[];
+
+
   githubUrl?: string;
   liveUrl?: string;
 };

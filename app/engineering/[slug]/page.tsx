@@ -51,6 +51,85 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               </span>
             ))}
           </div>
+<div className="mt-16 space-y-14">
+
+  <section>
+    <h2 className="text-2xl font-bold text-slate-950">
+      Problem
+    </h2>
+
+    <p className="mt-4 max-w-3xl leading-relaxed text-slate-600">
+      {project.problem}
+    </p>
+  </section>
+
+
+  <section>
+    <h2 className="text-2xl font-bold text-slate-950">
+      Solution
+    </h2>
+
+    <p className="mt-4 max-w-3xl leading-relaxed text-slate-600">
+      {project.solution}
+    </p>
+  </section>
+
+
+  <section>
+    <h2 className="text-2xl font-bold text-slate-950">
+      Features
+    </h2>
+
+    <ul className="mt-5 space-y-3">
+      {project.features.map((feature) => (
+        <li
+          key={feature}
+          className="text-slate-600"
+        >
+          ✓ {feature}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+
+  <section>
+    <h2 className="text-2xl font-bold text-slate-950">
+      Challenges
+    </h2>
+
+    <ul className="mt-5 space-y-3">
+      {project.challenges.map((challenge) => (
+        <li
+          key={challenge}
+          className="text-slate-600"
+        >
+          • {challenge}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+
+  <section>
+    <h2 className="text-2xl font-bold text-slate-950">
+      Learnings
+    </h2>
+
+    <ul className="mt-5 space-y-3">
+      {project.learnings.map((learning) => (
+        <li
+          key={learning}
+          className="text-slate-600"
+        >
+          → {learning}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+</div>
+
 
           <div className="mt-10 flex flex-wrap gap-4">
             {project.githubUrl && (
