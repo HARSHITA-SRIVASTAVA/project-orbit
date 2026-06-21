@@ -4,6 +4,8 @@ import OrbitStatus from "./OrbitStatus";
 import AvailabilityBadge from "./AvailabilityBadge";
 import ProfileCard from "./ProfileCard";
 
+import Link from "next/link";
+
 import TechStack from "./TechStack";
 
 export default function Hero() {
@@ -44,11 +46,18 @@ full-stack development, and continuous learning.
             <TechStack />
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <Button>View Engineering</Button>
-
-              <Button variant="secondary">
-                Download Resume
-              </Button>
+            <Link href="/engineering">
+                <Button>View Engineering</Button>
+            </Link>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <Button variant="secondary">
+                    View Resume ↗
+                </Button>
+                </a>
             </div>
           </div>
 

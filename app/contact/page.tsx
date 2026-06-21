@@ -92,7 +92,7 @@ export default function ContactPage() {
               </p>
 
               <h2 className="mt-4 text-2xl font-black text-slate-950">
-                Download Resume
+                Resume
               </h2>
 
               <a
