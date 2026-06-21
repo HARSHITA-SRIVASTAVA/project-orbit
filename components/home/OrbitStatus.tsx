@@ -28,7 +28,7 @@ export default function OrbitStatus() {
         <div>
           <p className="text-sm text-slate-500">Latest Mission</p>
           <p className="font-medium text-slate-900">
-            Project Orbit
+           Building Project Orbit
           </p>
         </div>
       </div>

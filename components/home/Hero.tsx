@@ -22,17 +22,16 @@ export default function Hero() {
             </h1>
 
             <p className="mt-4 text-lg font-medium text-slate-700">
-              Software Engineer · Full Stack Developer
+              Backend Engineer · Full Stack Developer
             </p>
 
             <p className="mt-8 text-xl leading-relaxed text-slate-600">
-              Software Engineer focused on building reliable backend systems,
-              scalable web applications, and products that create real-world impact.
+              Turning ideas into reliable software through backend engineering,
+full-stack development, and continuous learning.
             </p>
 
             <p className="mt-4 text-slate-600">
-              Turning ideas into reliable software through backend engineering,
-              full-stack development, and continuous learning.
+              Currently building projects with Java, Spring Boot, MERN, and modern web technologies while continuously improving problem-solving and system design skills.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
