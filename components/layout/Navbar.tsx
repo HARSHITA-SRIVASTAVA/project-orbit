@@ -47,7 +47,7 @@ export default function Navbar() {
           </nav>
 
           <MobileMenu />
-          
+
         </div>
       </Container>
     </header>

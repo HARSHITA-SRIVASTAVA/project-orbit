@@ -26,7 +26,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       <main className="min-h-screen">
         <Container>
-          <p className="text-sm font-bold uppercase tracking-[0.35em] text-blue-600">
+          <p className="mt-6 text-sm font-bold uppercase tracking-[0.35em] text-blue-600">
             Engineering Mission
           </p>
 
