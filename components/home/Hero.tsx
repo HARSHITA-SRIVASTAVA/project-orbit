@@ -1,16 +1,19 @@
 import Button from "@/components/ui/Button";
 import Container from "@/components/layout/Container";
 import OrbitStatus from "./OrbitStatus";
+import AvailabilityBadge from "./AvailabilityBadge";
 
 export default function Hero() {
   return (
     <section className="py-24">
       <Container>
-        <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <AvailabilityBadge />
+        <div className=" mb-6 grid gap-12 lg:grid-cols-2 lg:items-center">
 
           {/* Left Side */}
+
           <div>
-            <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
+            <p className="mb-6 text-sm uppercase tracking-[0.3em] text-slate-500">
               Project Orbit
             </p>
 
