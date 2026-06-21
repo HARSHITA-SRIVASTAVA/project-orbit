@@ -3,6 +3,8 @@ import Container from "@/components/layout/Container";
 import OrbitStatus from "./OrbitStatus";
 import AvailabilityBadge from "./AvailabilityBadge";
 
+import TechStack from "./TechStack";
+
 export default function Hero() {
   return (
     <section className="py-24">
@@ -33,6 +35,8 @@ full-stack development, and continuous learning.
             <p className="mt-4 text-slate-600">
               Currently building projects with Java, Spring Boot, MERN, and modern web technologies while continuously improving problem-solving and system design skills.
             </p>
+
+            <TechStack />
 
             <div className="mt-10 flex flex-wrap gap-4">
               <Button>View Engineering</Button>
