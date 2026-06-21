@@ -3,7 +3,7 @@ import Container from "@/components/layout/Container";
 import Navbar from "@/components/layout/Navbar";
 import Button from "@/components/ui/Button";
 import { notFound } from "next/navigation";
-
+import Footer from "@/components/layout/Footer";
 
 type ProjectPageProps = {
   params: Promise<{
@@ -24,7 +24,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     <>
       <Navbar />
 
-      <main className="py-20">
+      <main className="min-h-screen">
         <Container>
           <p className="text-sm font-bold uppercase tracking-[0.35em] text-blue-600">
             Engineering Mission
@@ -145,8 +145,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               </a>
             )}
           </div>
-        </Container>
+        </Container>   
       </main>
+      <Footer />
     </>
   );
 }

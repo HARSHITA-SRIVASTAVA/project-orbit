@@ -2,6 +2,8 @@ import Navbar from "@/components/layout/Navbar";
 import Container from "@/components/layout/Container";
 import { experiences } from "@/data/experience";
 
+import Footer from "@/components/layout/Footer";
+
 export default function ExperiencePage() {
   const experience = experiences[0];
 
@@ -9,7 +11,7 @@ export default function ExperiencePage() {
     <>
       <Navbar />
 
-      <main className="py-20">
+      <main className="min-h-screen">
         <Container>
           <p className="text-sm font-bold uppercase tracking-[0.35em] text-blue-600">
             Flight Log
@@ -94,7 +96,9 @@ export default function ExperiencePage() {
             </div>
           </section>
         </Container>
+        
       </main>
+      <Footer />
     </>
   );
 }

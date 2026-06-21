@@ -3,6 +3,10 @@
 import { useState } from "react";
 
 const navItems = [
+    {
+    label: "Home",
+    href: "/",
+  },
   {
     label: "Engineering",
     href: "/engineering",

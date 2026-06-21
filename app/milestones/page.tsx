@@ -2,12 +2,15 @@ import Navbar from "@/components/layout/Navbar";
 import Container from "@/components/layout/Container";
 import { milestones } from "@/data/milestones";
 
+import Footer from "@/components/layout/Footer";
+
+
 export default function MilestonesPage() {
   return (
     <>
       <Navbar />
 
-      <main className="py-20">
+      <main className="min-h-screen">
         <Container>
           <p className="text-sm font-bold uppercase tracking-[0.35em] text-blue-600">
             Mission Milestones
@@ -43,7 +46,9 @@ export default function MilestonesPage() {
             ))}
           </section>
         </Container>
+       
       </main>
+       <Footer />
     </>
   );
 }
