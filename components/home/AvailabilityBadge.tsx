@@ -6,6 +6,8 @@ export default function AvailabilityBadge() {
       <span className="text-sm font-medium text-green-700">
         Open to SDE • Backend • Full Stack Roles
       </span>
+      
     </div>
+    
   );
 }

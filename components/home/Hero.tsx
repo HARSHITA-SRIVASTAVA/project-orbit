@@ -2,20 +2,21 @@ import Button from "@/components/ui/Button";
 import Container from "@/components/layout/Container";
 import OrbitStatus from "./OrbitStatus";
 import AvailabilityBadge from "./AvailabilityBadge";
+import ProfileCard from "./ProfileCard";
 
 import TechStack from "./TechStack";
 
 export default function Hero() {
   return (
-    <section className="pt-10 pb-10">
+    <section className="pt-6 pb-12">
       <Container>
         <AvailabilityBadge />
-        <div className=" mt-8 grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div className=" mt-4 grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
 
           {/* Left Side */}
 
           <div>
-            <p className="mb-6 text-sm uppercase tracking-[0.3em] text-slate-500">
+            <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
               Project Orbit
             </p>
 
@@ -25,6 +26,10 @@ export default function Hero() {
 
             <p className="mt-4 text-2xl font-bold text-blue-600">
               Backend Engineer · Full Stack Developer
+            </p>
+
+            <p className="mt-3 text-base font-medium text-slate-800">
+                9.5 CGPA • RV Institute of Technology and Management
             </p>
 
             <p className="mt-8 max-w-2xl text-xl leading-relaxed text-slate-600">
@@ -48,7 +53,10 @@ full-stack development, and continuous learning.
           </div>
 
           {/* Right Side */}
-          <OrbitStatus />
+          <div className="space-y-4">
+  <ProfileCard />
+  <OrbitStatus />
+</div>
 
         </div>
       </Container>
