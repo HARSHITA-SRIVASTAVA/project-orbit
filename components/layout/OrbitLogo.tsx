@@ -1,21 +1,18 @@
 export default function OrbitLogo() {
   return (
-    <div className="flex items-center gap-3">
-      <div className="relative h-10 w-10">
-        {/* Orbit Ring */}
-        <div className="absolute inset-0 rounded-full border-2 border-blue-600" />
+<div className="flex items-center gap-3 group select-none cursor-pointer">
+      {/* Responsive Wrapper: 
+        Scales from h-10 w-10 on mobile (sm:) up to h-12 w-12 on desktop.
+      */}
+      
 
-        {/* Satellite */}
-        <div className="absolute -top-1 right-1 h-2.5 w-2.5 rounded-full bg-blue-600" />
-      </div>
-
-      <div>
-        <p className="text-sm font-bold tracking-wide text-slate-900">
-          PROJECT ORBIT
+      <div className="leading-none">
+        <p className="text-sm font-black tracking-[0.18em] text-slate-950">
+          PROJECT <span className="text-blue-600">ORBIT</span>
         </p>
 
-        <p className="text-xs text-slate-500">
-          Mission Control
+        <p className="mt-1 text-[11px] font-medium tracking-[0.25em] text-slate-500">
+          MISSION CONTROL
         </p>
       </div>
     </div>

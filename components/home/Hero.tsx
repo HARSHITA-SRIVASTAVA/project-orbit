@@ -7,10 +7,10 @@ import TechStack from "./TechStack";
 
 export default function Hero() {
   return (
-    <section className="pt-14 pb-20">
+    <section className="pt-10 pb-10">
       <Container>
         <AvailabilityBadge />
-        <div className=" mt-10 grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div className=" mt-8 grid gap-12 lg:grid-cols-2 lg:items-center">
 
           {/* Left Side */}
 
